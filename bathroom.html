@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bathroom cleaning | Handyman</title>
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    /* ---------- HEADER ---------- */
+    .logo {
+      max-width: 140px;
+      height: auto;
+    }
+
+    @media (max-width: 885px) {
+      .logo {
+        max-width: 110px;
+      }
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1050;
+      background-color: #fff;
+      min-height: 80px;
+      border-bottom: 1px solid rgba(195, 193, 190);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* ---------- MAIN SECTION ---------- */
+    body {
+      padding-top: 120px;
+    }
+
+    main {
+      border-bottom: 1px solid rgb(202, 199, 199);
+    }
+
+    .carousel,
+    .carousel-inner,
+    .carousel-item,
+    .carousel-img {
+      height: 60vh;
+      border-radius: 8px;
+    }
+
+    .carousel-img {
+      object-fit: cover;
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      .carousel,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-img {
+        height: 65vh;
+        margin-top: 20px;
+      }
+    }
+
+    .float-img {
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fafafa;
+      border-radius: 10px;
+      color: #11315d;
+      padding: 10px 20px;
+      z-index: 10;
+      pointer-events: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container h3 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #11335c;
+    }
+
+    .offers {
+      margin-top: 20px;
+    }
+
+    /* ---------- FOOTER ---------- */
+    .footer-link a {
+      display: block;
+      margin-bottom: 0.25rem;
+      text-decoration: none;
+      color: #11335c;
+    }
+
+    .footer-link a:hover {
+      color: #286bbe;
+      text-decoration: underline;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="d-flex align-items-center px-3">
+    <a href="./index.html" class="navbar-brand">
+      <img src="./WhatsApp_Image_2025-10-17_at_10.16.13_f7db862f-removebg-preview.png" alt="Handyman Logo"
+        class="logo img-fluid">
+    </a>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <div class="container my-5">
+      <div class="row">
+        <!-- LEFT COLUMN -->
+        <div class="col-lg-4 text-center">
+          <div class="sticky-top">
+            <h3>BATHROOM &TOILET CLEANING</h3>
+            <p><i class="bi bi-star-fill text-warning"></i> 4.6 (7K bookings)</p>
+            <div class="mx-auto p-4 rounded shadow-lg bg-light">
+              <p class="fw-bold">Handyman</p>
+              <p><i class="bi bi-check-circle-fill text-success"></i> Verified Professionals</p>
+              <p><i class="bi bi-check-circle-fill text-success"></i> Hassle-Free Booking</p>
+              <p><i class="bi bi-check-circle-fill text-success"></i> Quality Service Guaranteed</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="col-lg-8">
+          <!-- CAROUSEL -->
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./pexels-karola-g-4239114.jpg" class="d-block w-100 carousel-img"
+                  alt="Painter at work">
+              </div>
+            </div>
+            <div class="float-img">
+              <h2>BATHROOM & TOILET CLEANING</h2>
+            </div>
+          </div>
+
+          <!-- SERVICES GRID -->
+          <div class="row second">
+            <div class="col-md-8 mb-4 third">
+              <div class="row row-cols-1 row-cols-md-2 g-4 my-5">
+                <!-- CARD 1 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./bathroom/maintenance.jpg" class="card-img-top img-fluid" alt="Maintenance Pack">
+                    <div class="card-body">
+                      <h5 class="card-title">Maintenance Pack</h5>
+                      <p class="card-text">Refresh your bathroom’s look and hygiene! Get expert cleaning, plumbing checks, and repairs — all in one affordable maintenance pack.</p>
+                      <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./bathroom/cleaning.jpg" class="card-img-top img-fluid" alt="Combose">
+                    <div class="card-body">
+                      <h5 class="card-title">Combose</h5>
+                      <p class="card-text">Get a sparkling clean bathroom with our combo package — deep cleaning, plumbing check, and maintenance all in one hassle-free service.</p>
+                      <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./bathroom/combos.jpg" class="card-img-top img-fluid" alt="Bathroom Cleaning">
+                    <div class="card-body">
+                      <h5 class="card-title">Bathroom Cleaning</h5>
+                      <p class="card-text">Keep your bathroom sparkling clean and hygienic with our professional cleaning services.</p>
+                      <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="./bathroom/miniser.jpg" class="card-img-top img-fluid" alt="Mini services">
+                    <div class="card-body">
+                      <h5 class="card-title">Mini services</h5>
+                      <p class="card-text">Quick fixes and small tasks handled efficiently — perfect for minor repairs and maintenance around your home.</p>
+                      <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- OFFERS -->
+            <div class="col-md-4 mb-4 my-5">
+              <div class="offers p-3 bg-warning rounded sticky-top my-4">
+                <h5>Special Offers</h5>
+                <p>₹250 OFF on mobile booking!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="mx-5 footer-logo">
+    <a href="./index.html" class="navbar-brand" id="Contact">
+      <img src="../WhatsApp_Image_2025-10-17_at_10.16.13_f7db862f-removebg-preview.png" alt="Handyman Logo"
+        class="logo img-fluid">
+    </a>
+
+    <div class="container row text-center">
+      <div class="footer-link col-12 col-md-6 col-lg-3 mb-3">
+        <p class="fw-bold">Company</p>
+        <a href="#">Investor Relations</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">ESG Impact</a>
+        <a href="#">Careers</a>
+      </div>
+
+      <div class="footer-link col-12 col-md-6 col-lg-3 mb-3">
+        <p class="fw-bold">Contact Us</p>
+        <a href="tel:+919895813542">+91 98958 13542</a>
+        <a href="mailto:sarangdas57@gmail.com">sarangdas57@gmail.com</a>
+        <a href="./contact.html">Register Now</a>
+      </div>
+
+      <div class="footer-link col-12 col-md-6 col-lg-3 mb-3">
+        <p class="fw-bold">For Professionals</p>
+        <a href="#">Register as a Professional</a>
+      </div>
+
+      <div class="footer-link col-12 col-md-6 col-lg-3 mb-3">
+        <p class="fw-bold">Follow Us</p>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+      </div>
+    </div>
+
+    <div class="text-center mt-3 small text-muted">
+      © 2025 Handyman Services | All Rights Reserved
+    </div>
+  </footer>
+
+</body>
+</html>
